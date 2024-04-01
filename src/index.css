@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+}
+
+body {
+  background-color: rgb(237, 237, 237);
+ 
+}
+
+.logo {
+  background-color: #fac259;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 85px;
+  padding: 5px 10%;
+ 
+}
+
+.logo img {
+  height: 70px;
+  width: auto;
+  cursor: pointer;
+  transition: all 0.3s;
+  border-radius: 10px;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.nav-links a {
+  font-size: 700;
+  color: rgb(133, 133, 123);
+  text-decoration: none;
+}
+
+.nav-links li:hover {
+  transform: scale(1.1);
+}
+
+.nav-links li a:hover {
+  color: black;
+}
+
+h1 {
+  font-size: 60px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.div1 {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+
+  
+}
+
+.carrito {
+  height: 50px;
+  width: 50px;
+}
+
+.ITC {
+  
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: xx-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #170f02;
+  
+}
